@@ -1,0 +1,168 @@
+//navigation bar//
+body {margin:0;}
+.topnav {
+	float:left;
+    background-color: #25373D;
+    overflow: hidden;
+	position:relative;
+	bottom:8px;
+	width:1519px;
+	right:10px;
+	color:white;
+	height:50px;
+	
+	
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.topnav a.logo{
+	float:right;
+	border-radius:50%;
+	position:relative;
+	right:300px;
+	width:10px;
+	height:10px;
+	bottom:20px;
+}
+.topnav img{
+	float:left;
+	height:50px;
+	width:50px;
+	
+}
+.topnav p{
+	float:left;
+}
+#searchlabel{
+	position:relative;
+	top:10px;
+	
+}
+#search_btn{
+	width:80px;
+	padding:5px;
+	position:relative;
+	top:10px;
+	background-color:#4CAF50;
+	color:white;
+}
+// navgation bar complete//
+#bodystyle{
+	width:1510px;
+	height:2000px;
+}
+/*Main wrapper*/
+#pagelayout{
+	float:right;
+	position:relative;
+	right:250px;
+	width:1000px;
+	height:1300px;
+	bottom:8px;
+   background-color:#FFFFF7;	
+}
+/*Search box*/
+#search{
+	width:300px;
+	padding:5px;
+	position:relative;
+	top:10px;
+}
+#cat{
+	float:left;
+	background-color:#E0E4CC;
+	width:260px;
+	height:300px;
+   position:relative;
+   right:8px;
+   bottom:8px;
+}
+#cate{
+	background-color:#282830;
+	width:255px;
+	padding:3px;
+	color:white;
+}
+#brand{
+	background-color:#282830;
+	width:255px;
+	padding:3px;
+	color:white;
+	position:relative;
+	top:2px;
+}
+.products {
+  display:inline-block;
+  float:left;
+  position:relative;
+  top:50px;
+  left:50px;
+  
+}
+.product-card {
+  width:250px;
+  height:300px;
+  display:inline-block; /* so child elements can use flexbox stuff too! */
+}
+.product-image img{
+	width:150px;
+	height:300px;
+}
+.product-info {
+  margin-top: auto;
+}
+.product-info form{
+	background-color:#25373D;
+	color:white;
+	width:230px;
+}
+.product-info:hover form{
+	display:block;
+}
+.catcolor a{
+	color:#2C82C9;
+}
+.brandcolor a{
+	color:#2C82C9;
+}
+#carticon{
+	width:45px;
+	height:45px;
+	border-radius:50%;
+	position:relative;
+	bottom:20px;
+}
+#addtocart{
+	float:left;
+	position:relative;
+	top:500px;
+	left:800px;
+	
+	
+}
+#item{
+	float:left;
+	position:relative;
+	left:800px;
+	bottom:25px;
+}

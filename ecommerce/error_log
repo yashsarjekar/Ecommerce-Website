@@ -1,0 +1,1 @@
+[13-Jan-2018 11:04:29 Etc/GMT] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'thepov3n_data'@'localhost' (using password: YES) in /home/thepov3n/public_html/ecommerce/database/config.php on line 2
